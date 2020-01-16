@@ -1,0 +1,246 @@
+body {
+    color: white;
+    font-family: sans-serif;
+}
+.container {
+    margin: 0 auto;
+}
+header {
+    background: #de2b24;
+    height: 860px;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+.main {
+    background: #1287bf;
+    min-height: 850px;
+}
+.links {
+    background: #2a2a2a;
+    min-height: 490px;
+}
+.footer {
+    background: #515151;
+    min-height: 70px;
+}
+.title {
+    text-align: center;
+}
+.title h3 {
+    padding: 110px 0 0 0;
+    font-weight: bold;
+    font-size: 36px;
+}
+.title h4 {
+    font-size: 20px;
+    padding: 0 0 18px 0;
+    font-weight: lighter;
+}
+.line {
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    width: 47px;
+    height: 5px;
+}
+.block {
+    margin: 47px auto 0;
+    background: #f35e59;
+    width: 1024px;
+    font-size: 0;
+}
+
+.box {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    height: 253px;
+    font-weight: bold;
+    text-align: center;
+}
+.box__in{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%,-50%);
+}
+.iconplane {
+    margin: 0 auto;
+}
+.block h3 {
+    font-size: 26px;
+}
+.block h4 {
+    font-size: 16px;
+}
+.main h2 {
+    padding: 100px 0 0 0;
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+}
+.main h3 {
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+}
+.round_settings {
+    text-align: center;
+    padding: 18px 0 0 0;
+}
+.round {
+    display: inline-block;
+    vertical-align: middle;
+    width: 58px;
+    height: 58px;
+    background: #1287bf;
+}
+.round_close {
+    position: absolute;
+    top: -22px;
+    right: -22px;
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    background-color: #de2b24;
+    border-radius: 50%;
+    border: solid 2px white;
+}
+.close {
+    text-align: middle;
+    padding: 12px 0 0 0;
+}
+.links_h3 {
+    font-size: 29px;
+    font-weight: bold;
+    text-align: center;
+    padding: 90px 0 0 0;
+}
+.links_line {
+    padding: 30px 0 36px 0;
+    margin: 0 auto;
+
+    text-align: center;
+}
+.links_button {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+    background-color:  #2a2a2a;
+    border: solid 2px #515151;
+    width: 49px;
+    height: 49px;
+}
+.links_button img {
+    padding: 15px 15px 15px 15px;
+}
+.links_button a {
+    text-align: center;
+}
+.links_button:hover {
+    box-shadow: inset 0 0 0 2px #de2b24;
+}
+.links_h4 {
+    font-size: 14px;
+    text-align: center;
+    color: #cecece;
+}
+.input_bar {
+    padding: 34px 0 0 0;
+    text-align: center;
+}
+.bar {
+    width: 683px;
+    height: 54px;
+    background-color: #515151;
+    border: none;
+    color: #cecece;
+    font-size: 14px; 
+    padding: 0 0 0 22px;
+}
+.sub_button_block {
+    text-align: center;
+    padding: 27px 0 0 0;
+}
+.sub_button_block .sub_button {
+    text-align: center;
+    font-size: 17px;
+    width: 153px;
+    height: 53px;
+    border: solid 2px #515151;
+    background-color: #2a2a2a;
+    color: white;
+    font-family: sans-serif;
+}
+.footer {
+    font-size: 14px;
+    text-align: center;
+    padding: 27px 0 0 0;
+    color: #cecece;
+}
+.triangle_settings {
+    margin: 0 auto 0;
+    text-align: center;
+    display: block;
+    font-size: 0;
+}
+.triangle {
+    display: inline-block;
+    padding: 21px 0 0 0;
+    background-color: #1287bf;
+    width: 0; 
+    height: 0;
+    border-left: 32px solid transparent;
+    border-right: 32px solid transparent;
+    border-bottom: 31px solid white;
+    }
+.main_block {
+    position: relative;
+    background-color: white;
+    width: 683px;
+    height: 448px;
+    margin: 0 auto 0;
+}
+.main_block h3 {
+    font-weight: normal;
+    font-size: 15px;
+    color: #828282;
+    padding: 51px 0 0 0;
+}
+.input_bar {
+    text-align: center;
+}
+.main_input_bar .bar {
+    padding: 0 0 0 20px;
+    font-size: 15px;
+    width: 445px;
+    height: 51px;
+    border: solid 1px #d8d8d8;
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+}
+.main_input_bar {
+    padding: 0 0 9px 0;
+    text-align: center;
+}
+.main_bar_block {
+    padding: 41px 0 0 0;
+}
+.main_button_settings {
+    text-align: center;
+    padding: 36px 0 0 0;
+}
+.main_button {
+    text-align: center;
+    font-size: 15px;
+    width: 161px;
+    height: 46px;
+    border: none;
+    background-color: #de2b24;
+    color: white;
+    font-family: sans-serif;
+}
